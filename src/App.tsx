@@ -15,7 +15,9 @@ export default function Page() {
       "No",
       "Wait, Calm Down",
       "Are you sure?",
-      "Really sure?",
+      "You serf, no d spark",
+      "In the name of our creator",
+      "La champagne, you Really sure?",
       "Think again!",
       "Last chance!",
       "Surely not?",
@@ -35,7 +37,7 @@ export default function Page() {
   };
 
   return (
-    <div className="centered-container">      
+    <div className="centered-container">
       <div className="valentine-container">
         {yesPressed ? (
           <>
@@ -49,7 +51,12 @@ export default function Page() {
               style={{ width: "400x", height: "240px" }}
               src="https://gifdb.com/images/high/cute-love-bear-roses-ou7zho5oosxnpo6k.gif"
             />
-            <h1 className="text-container">Kwedi, my pepper and honey,<br> Will you be my Valentine?</h1>
+            <h1 className="text-container">
+              Kwedi, my pepper and honey,
+              <br /> As annoying as you are,
+              <br />
+              Will you be my valentine?
+            </h1>
             <div>
               <button
                 className={"yes-button"}

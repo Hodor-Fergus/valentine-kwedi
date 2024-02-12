@@ -13,6 +13,7 @@ export default function Page() {
   const getNoButtonText = () => {
     const phrases = [
       "No",
+      "Wait, Calm Down",
       "Are you sure?",
       "Really sure?",
       "Think again!",
